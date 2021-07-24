@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    padding: 0;
+}
+
+html {
+    background-color: antiquewhite;
+    background-image: url("tiled.jpg");
+}
+
+body {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5%;
+    text-align: center;
+    font-family:  'Times New Roman', Times, serif;
+}
+
+main {
+    min-height: 100%;
+    background-color: lightgray;
+    border: 10px groove;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+h1 {
+    text-shadow: 3px 3px aliceblue;
+    font-size: 3em;
+    -webkit-text-stroke: 1px transparent;
+}
+
+p {
+    font-size: 2em;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    max-height: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ce1010;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.flex > p {
+    flex-grow: 1;
+}
